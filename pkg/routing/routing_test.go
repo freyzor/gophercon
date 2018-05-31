@@ -7,8 +7,7 @@ import (
 
 	"github.com/freyzor/gophercon/pkg/routing"
 )
-
-func TestBaseRouter(t *testing.T) {
+versionfunc TestBaseRouter(t *testing.T) {
 	handler := routing.BaseRouter()
 
 	ts := httptest.NewServer(handler)
