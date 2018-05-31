@@ -2,13 +2,12 @@ package routing
 
 import (
 	"fmt"
-	"log"
 	"net/http"
 
 	"github.com/gorilla/mux"
 )
 
-// diagnostic router for health and readiness
+// DiagnosticsRouter for health and readiness
 func DiagnosticsRouter() *mux.Router {
 	r := mux.NewRouter()
 
